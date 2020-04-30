@@ -1,0 +1,9 @@
+create table shipmentDetails(
+	ShipmentID varchar(40),
+	ShipmentDate varchar(40),
+    Origin varchar(40),
+    ExpectedArrival varchar(40),
+    Destination varchar(40),
+    ShipNumner int,
+    Captain varchar(40),
+    primary key (ShipmentID));
